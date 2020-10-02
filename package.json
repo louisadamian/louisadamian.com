@@ -1,0 +1,23 @@
+{
+  "name": "louieadamian.com",
+  "version": "1.0.0",
+  "description": "My personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/LouieAdamian/louieadamian.com.git"
+  },
+  "author": "Louie Adamian",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://gitlab.com/LouieAdamian/louieadamian.com/issues"
+  },
+  "homepage": "https://gitlab.com/LouieAdamian/louieadamian.com#readme",
+  "devDependencies": {
+    "vuepress": "^1.6.0"
+  }
+}
