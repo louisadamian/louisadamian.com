@@ -2,7 +2,10 @@ module.exports = {
     title: 'Louie Adamian',
     markdown:{
         anchor:{
-            permalink: true,
+            permalink: false,
+            permalinkBefore: true,
+            permalinkSymbol: '#'
+
         }
     },
     themeConfig: {
