@@ -17,7 +17,7 @@
     "url": "https://gitlab.com/LouieAdamian/louieadamian.com/issues"
   },
   "homepage": "https://gitlab.com/LouieAdamian/louieadamian.com#readme",
-  "devDependencies": {
+  "dependencies": {
     "vuepress": "^1.6.0"
   }
 }

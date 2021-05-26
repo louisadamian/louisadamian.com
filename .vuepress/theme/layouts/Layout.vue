@@ -3,11 +3,11 @@
         <div class="super-container">
             <Nav/>
             <div class="content-container">
-                <Content/> 
-            </div>    
+                <Content/>
+            </div>
         </div>
     </div>
 </template>
 <style lang="scss">
-@import '../styles/style.scss';
+//@import '../styles/style';
 </style>
