@@ -5,3 +5,4 @@ portfolio_index: true
 ---
 # Portfolio
 
+<PortfolioIndex />

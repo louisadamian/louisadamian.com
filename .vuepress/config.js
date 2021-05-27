@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Louie Adamian',
+    title: 'Louis Adamian',
     markdown:{
         anchor:{
             permalink: false,
@@ -8,11 +8,4 @@ module.exports = {
 
         }
     },
-    themeConfig: {
-        nav: [
-            {text:'Louie Adamian', link:'/'},
-            {text:'Portfolio', link:'/portfolio'},
-            {text:'Blog', link:'/blog/index'}
-        ]
-    }
   }

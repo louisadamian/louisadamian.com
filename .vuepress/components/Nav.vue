@@ -25,7 +25,7 @@
 </template>
 
 <style scoped lang="scss">
-    @import '../styles/variables';
+    @import '../theme/styles/variables';
     .nav {
         display: flex;
         margin: 1% 1% 0;

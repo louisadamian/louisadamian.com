@@ -15,7 +15,9 @@
 
 <style scoped lang="scss">
 @import '../styles/variables';
-
+.theme-container {
+  padding: 1%;
+}
 </style>
 <script>
 import Nav from '@theme/components/Nav'
