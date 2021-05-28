@@ -21,14 +21,4 @@ h1, h2, h3{
 }
 
 </style>
-<!--<script>-->
-<!--import Nav from '@theme/components/Nav'-->
-<!--import 'normalize.css'-->
-<!--import 'typeface-source-sans-pro'-->
-<!--export default {-->
-<!--  components: {-->
-<!--    Nav-->
-<!--  }-->
-<!--}-->
-<!--</script>-->
 
