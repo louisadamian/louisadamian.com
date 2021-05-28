@@ -7,18 +7,18 @@
             </router-link>
         <ul class="nav-links">
             <li>
-                <router-link class="portfolio" :to="/portfolio/">
-                    <h2>
-                        Portfolio
-                    </h2>
-                </router-link>
+              <router-link class="portfolio" to="/portfolio/">
+                <h2>
+                  Portfolio
+                </h2>
+              </router-link>
             </li>
             <li>
-                <router-link class="blog" :to="/blog/">
-                    <h2>
-                        Blog
-                    </h2>
-                </router-link>
+              <router-link class="blog" to="/blog/">
+                <h2>
+                  Blog
+                </h2>
+              </router-link>
             </li>
         </ul>
     </div>
@@ -50,10 +50,16 @@
       color: white;
       text-decoration: none;
       box-sizing: border-box;
-      &:active { opacity: 0.7; }
+      &:active {
+        opacity: 0.7;
+        padding: 0;
+        border: 0;
+        margin: 0;
+      }
       @media (max-width: 700px) { display: inline-flex; }
-      //@media (max-width: 500px) { margin: 0 $left-pad; }
+      @media (max-width: 500px) { margin: 0 $left-pad; }
     }
+
     .nav-links {
       margin: 0;
       display: flex;
@@ -65,6 +71,11 @@
       flex-wrap: wrap;
       @media (max-width: 500px) {
         padding: 0 12px;
+      }
+
+      &:active {
+        margin: 0;
+        padding: 12px;
       }
 
       li {
@@ -83,12 +94,9 @@
           margin: 0 5px;
 
           &.router-link-active {
-            $shift: 0.5px;
-            transform: translateY(-3px);
-            margin: 0 20px;
             h2 {
+              margin: 0 5px;
               font-weight: 700;
-              margin-left: 0;
             }
           }
         }
