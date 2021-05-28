@@ -16,7 +16,7 @@
 <style scoped lang="scss">
 @import '../styles/variables';
 .theme-container {
-  padding: 1%;
+  padding: 2%;
 }
 </style>
 <script>
