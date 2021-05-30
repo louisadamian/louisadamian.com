@@ -43,9 +43,10 @@
 
     }
     .site-title {
-      border: 5px solid transparent;
+      //border: 5px solid transparent;
+      border-bottom: 0;
       font-size: 32px;
-      padding: 20px;
+      //padding: 20px;
       text-align: center;
       color: white;
       text-decoration: none;
