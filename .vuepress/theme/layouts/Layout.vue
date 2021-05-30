@@ -21,7 +21,6 @@
 </style>
 <script>
 import Nav from '@theme/components/Nav'
-import 'normalize.css'
 export default {
   components: {
     Nav
