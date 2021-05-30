@@ -1,6 +1,6 @@
 ---
 title: "PCB Printer"
-layout: Layout
+layout: Portfolio
 date: 2018-3-1
 img: pcb_printer.png
 description: "Brings industrial Printed Circuit Board (PCB) manufacturing techniques to the home. Using an ultraviolet 
@@ -8,7 +8,8 @@ laser and an automated chemical etching process, the resulting PCBs are equally 
 cost."
 ---
 
-PCB maker: a prototyping device that automates that prototyping Printed Circuit Boards (PCBs) by employing the fast 
+# PCB maker 
+A prototyping device that automates that prototyping Printed Circuit Boards (PCBs) by employing the fast 
 high-resolution methods used in production manufacturing without the need for a large facility and team.\
 \
 All previous solutions for prototyping printed circuit boards (PCBs) have been low resolution, unreliable, and 

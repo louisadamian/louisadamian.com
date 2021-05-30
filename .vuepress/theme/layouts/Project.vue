@@ -5,7 +5,7 @@
       <router-link to="/portfolio/">
         <i class="fas fa-angle-left">BACK</i>
       </router-link>
-      <img src=frontmatter >
+      <img :src="frontmatter.img" :alt="frontmatter.title" />
       <Content />
     </div>
   </div>

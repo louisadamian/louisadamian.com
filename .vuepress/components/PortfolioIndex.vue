@@ -7,13 +7,7 @@
             {{ post.frontmatter.title }}
           </router-link>
         </h3>
-        <!--eslint-disable-next-line vue/no-v-html-->
-        <div v-if="post.frontmatter.iframe" v-html="post.frontmatter.iframe" />
-        <img v-else-if="post.frontmatter.img" :src="getImgUrl(post.frontmatter.img)" alt="">
-
-        <div v-if="post.frontmatter.tags" class="tags">
-          {{ post.frontmatter.tags.join(', ') }}
-        </div>
+        <img v-if="post.frontmatter.img" :src="getImgUrl(post.frontmatter.img)" alt="post.frontmatter.title">
         </router-link>
         <p>{{ post.frontmatter.description }}</p>
 

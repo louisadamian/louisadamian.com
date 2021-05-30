@@ -1,6 +1,6 @@
 ---
 title: "Tessellating Gardens"
-layout: Layout
+layout: Portfolio
 date: 2018-6-1
 img: tessellating_gardens.png
 description: "A Floating modular garden on the Charles River that cleans phosphates, nitrates, and heavy metals through
