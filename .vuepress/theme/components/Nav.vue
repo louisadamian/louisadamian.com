@@ -20,6 +20,13 @@
                 </h2>
               </router-link>
             </li>
+          <li>
+            <router-link class="resume" to="/resume/">
+              <h2>
+                Resume
+              </h2>
+            </router-link>
+          </li>
         </ul>
     </div>
 </template>

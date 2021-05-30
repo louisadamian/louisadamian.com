@@ -1,17 +1,18 @@
 <template>
-  <div className="project-container">
+  <div class="project-container">
     <Nav/>
-    <div className="content-container">
-      <router-link class="fas fa-angle-left">
-        BACK
+    <div class="content-container">
+      <router-link to="/portfolio/">
+        <i class="fas fa-angle-left">BACK</i>
       </router-link>
-      <content />
+      <img src=frontmatter >
+      <Content />
     </div>
   </div>
 </template>
-
 <script>
 import Nav from '@theme/components/Nav'
+
 export default {
   components: {
     Nav
@@ -19,6 +20,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+@import '../styles/style.scss';
+</style>
+<style scoped lang="scss">
+@import '../styles/variables.scss';
 
 </style>

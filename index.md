@@ -1,10 +1,10 @@
 ---
-date: 2020-10-3
 layout: Layout
+title: Louis Adamian
 ---
 
 
-## My name is Louie Adamian
+## My name is Louis Adamian
 
 I am a computer programmer, maker, and student. I am currently an intern at Cherish Health working on electronics and 
 software prototyping for an in home ambient health monitoring device. I have a background in making I went to NuVu 
