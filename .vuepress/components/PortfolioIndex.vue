@@ -1,21 +1,22 @@
 <template>
   <div class="portfolio-container">
     <div v-for="post in posts" :key="post.frontmatter.title" class="project-tile">
-      <h2>
-        <a v-if="post.frontmatter.link" :href="post.frontmatter.link">{{ post.frontmatter.title }} »
-        </a>
-        <span v-else>{{ post.frontmatter.title }}</span>
-      </h2>
+      <router-link class="project-link" :to="post.path">
+        <h3>
+          <router-link :to="post.path">
+            {{ post.frontmatter.title }}
+          </router-link>
+        </h3>
+        <!--eslint-disable-next-line vue/no-v-html-->
+        <div v-if="post.frontmatter.iframe" v-html="post.frontmatter.iframe" />
+        <img v-else-if="post.frontmatter.img" :src="getImgUrl(post.frontmatter.img)" alt="">
 
-      <!--eslint-disable-next-line vue/no-v-html-->
-      <div v-if="post.frontmatter.iframe" v-html="post.frontmatter.iframe" />
-      <img v-else-if="post.frontmatter.img" :src="getImgUrl(post.frontmatter.img)" alt="">
+        <div v-if="post.frontmatter.tags" class="tags">
+          {{ post.frontmatter.tags.join(', ') }}
+        </div>
+        </router-link>
+        <p>{{ post.frontmatter.description }}</p>
 
-      <div v-if="post.frontmatter.tags" class="tags">
-        {{ post.frontmatter.tags.join(', ') }}
-      </div>
-
-      <p>{{ post.frontmatter.description }}</p>
     </div>
   </div>
 </template>
