@@ -15,3 +15,4 @@ NuVu into practice at Cherish Health. When I am not a student or working I love 
 learned to SCUBA dive at SeaTrek BVI and found my love of marine biology. I became a certified scuba diver in 2017
 and returned in 2018 and worked on a project on the health of Acropora Palmata and Acropora cervicornis after hurricanes
 Irma and Maria. Then in 2021, I worked as a staff memeber at Seatrek.
+<Social />

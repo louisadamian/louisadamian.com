@@ -5,6 +5,8 @@
       <div class="content-container">
         <Content />
       </div>
+        <Social />
+
     </div>
   </div>
 </template>
