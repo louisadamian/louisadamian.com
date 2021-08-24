@@ -42,6 +42,7 @@
         @media(max-width: 700px) {
             flex-direction: column;
         }
+      vertical-align: baseline;
     }
     h2, .site-name {
         font-weight: 600;

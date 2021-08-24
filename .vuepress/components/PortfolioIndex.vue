@@ -2,15 +2,15 @@
   <div class="portfolio-container">
     <div v-for="post in posts" :key="post.frontmatter.title" class="project-tile">
       <router-link class="project-link" :to="post.path">
-        <h3>
+        <img v-if="post.frontmatter.img" :src="getImgUrl(post.frontmatter.img)" alt="post.frontmatter.title">
+        <h3 class="project-name">
           <router-link :to="post.path">
             {{ post.frontmatter.title }}
           </router-link>
         </h3>
-        <img v-if="post.frontmatter.img" :src="getImgUrl(post.frontmatter.img)" alt="post.frontmatter.title">
+<!--        </router-link>-->
+<!--        <p>{{ post.frontmatter.description }}</p>-->
         </router-link>
-        <p>{{ post.frontmatter.description }}</p>
-
     </div>
   </div>
 </template>
@@ -37,6 +37,11 @@
   p {
     font-size: 18px;
   }
+  vertical-align: bottom;
+}
+.project-name {
+  text-align: center;
+  vertical-align: bottom;
 }
 .post-link {
   text-decoration: none;
