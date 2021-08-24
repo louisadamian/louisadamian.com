@@ -5,8 +5,7 @@
       <div class="content-container">
         <Content />
       </div>
-        <Social />
-
+      <Footer />
     </div>
   </div>
 </template>
@@ -23,10 +22,10 @@
 </style>
 <script>
 import Nav from '@theme/components/Nav'
-import Social from '@theme/components/Social'
+import Footer from '@theme/components/Footer'
 export default {
   components: {
-    Nav, Social
+    Nav, Footer
   }
 }
 </script>

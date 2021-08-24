@@ -28,3 +28,14 @@
         display: inline-flex;
     }
 </style>
+
+<script>
+export default {
+    name: 'Social',
+    components: {
+    },
+    data () {
+        return {}
+    }    
+}
+</script>

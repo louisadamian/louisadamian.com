@@ -10,3 +10,5 @@ resume: true
 <WorkExperience />
 
 ## Education
+ 
+<Social />
