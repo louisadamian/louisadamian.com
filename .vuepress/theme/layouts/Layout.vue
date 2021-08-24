@@ -23,9 +23,10 @@
 </style>
 <script>
 import Nav from '@theme/components/Nav'
+import Social from '@theme/components/Social'
 export default {
   components: {
-    Nav
+    Nav, Social
   }
 }
 </script>

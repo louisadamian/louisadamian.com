@@ -1,7 +1,7 @@
 <template>
     <div class="footer-wrapper">
         <p  class="footer">© 2021 Louis Adamian</p>
-        <!-- <a href="https://github.com/LouieAdamian/louisadamian.com/blob/master/LICENSE" class="footer">Licence</a> -->
+        <a href="https://github.com/LouieAdamian/louisadamian.com/blob/master/LICENSE" class="footer">Licence</a>
     </div>
 </template>
 
