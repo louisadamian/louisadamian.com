@@ -7,7 +7,7 @@ pages:
 
   script:
   - yarn install
-  - yarn dev
+  - yarn build
 
   artifacts:
     paths:
