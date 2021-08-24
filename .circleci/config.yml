@@ -7,4 +7,5 @@ workflows:
     jobs:
       - run:
         name: dev
-        command: npm run dev
+        command: |
+          npm run dev
