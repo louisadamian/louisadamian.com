@@ -9,7 +9,7 @@ pages:
   - yarn build
 build-job:
   stage: build
-  script: :
+  script:
     yarn install
     yarn build
 
