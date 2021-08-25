@@ -10,8 +10,8 @@ pages:
 build-job:
   stage: build
   script:
-    yarn install
-    yarn build
+  - yarn install
+  - yarn build
 
   artifacts:
     paths:
