@@ -4,10 +4,14 @@ pages:
   cache:
     paths:
     - node_modules/
-
   script:
   - yarn install
   - yarn build
+build-job:
+  stage: build
+  script: :
+    yarn install
+    yarn build
 
   artifacts:
     paths:
