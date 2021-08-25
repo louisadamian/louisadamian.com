@@ -5,7 +5,7 @@
       <div class="content-container">
         <Content />
       </div>
-      <Footer />
+      <!-- <Footer /> -->
     </div>
   </div>
 </template>

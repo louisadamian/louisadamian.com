@@ -1,5 +1,5 @@
 <template>
-    <div class="footer-wrapper">
+    <div class="footer-container">
        <p class="footer"> © 2021 Louis Adamian under a </p>
        <a href="https://gitlab.com/LouieAdamian/louisadamian-com/-/blob/master/LICENSE"> GNU GPL v3.0 Licence</a>
     </div>
@@ -14,7 +14,7 @@
     .footer {
       display: inline;
     }
-    .footer-wrapper{
+    .footer-container{
       vertical-align: bottom;
     }
 </style>

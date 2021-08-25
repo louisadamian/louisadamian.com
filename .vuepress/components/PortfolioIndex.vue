@@ -42,17 +42,20 @@
 .project-name {
   text-align: center;
   vertical-align: bottom;
+  width: 100%
+  
+}
+a {
+  text-decoration: none;
 }
 .post-link {
   text-decoration: none;
   color: unset;
 }
-//.tags {
-//  color: $mid-gray;
-//  font-family: $sans;
-//  font-size: 12px;
-//  text-transform: uppercase;
-//}
+.tags {
+color: $off-black;
+ font-size: 12px;
+}
 img {
   width: 300px;
   height: auto;

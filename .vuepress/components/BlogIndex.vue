@@ -1,5 +1,5 @@
 <template>
-  <div class="blog-wrapper">
+  <div class="blog-container">
     <h2>
       Blog
     </h2>
