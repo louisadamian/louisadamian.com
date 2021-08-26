@@ -1,5 +1,13 @@
 image: node:14.17.0
 
+build-job:
+  stage: build
+  script:
+  - yarn install
+  - yarn build
+  only:
+  - master
+
 pages:
   cache:
     paths:
@@ -7,15 +15,8 @@ pages:
   script:
   - yarn install
   - yarn build
-build-job:
-  stage: build
-  script:
-  - yarn install
-  - yarn build
-
   artifacts:
     paths:
     - public
-  
   only:
   - master

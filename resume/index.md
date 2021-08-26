@@ -4,11 +4,7 @@ title: Resume
 resume: true
 ---
 # Resume
-## Technical Expertise
-## Work Experience
     
-<WorkExperience />
+<Resume />
 
-## Education
  
-<Social />

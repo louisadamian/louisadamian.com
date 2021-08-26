@@ -1,4 +1,5 @@
 ---
+type: job
 name: Comcast NBCUniversal
 start: 2019-6
 end: 2019-12
