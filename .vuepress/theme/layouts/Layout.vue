@@ -5,7 +5,6 @@
       <div class="content-container">
         <Content />
       </div>
-      <!-- <Footer /> -->
     </div>
   </div>
 </template>
