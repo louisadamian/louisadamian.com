@@ -1,12 +1,12 @@
 image: node:14.17.0
 
-build-job:
-  stage: build
-  script:
-  - yarn install
-  - yarn build
-  only:
-  - master
+#build-job:
+#  stage: build
+#  script:
+#  - yarn install
+#  - yarn build
+#  only:
+#  - master
 
 pages:
   cache:
