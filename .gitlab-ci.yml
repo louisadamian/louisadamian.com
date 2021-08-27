@@ -15,6 +15,7 @@ pages:
   script:
   - yarn install
   - yarn build
+  stage: deploy
   artifacts:
     paths:
     - public
