@@ -1,43 +1,62 @@
 <template>
-    <div class="blog-container">
-        <ul class="socials">
-            <li><a href="https://www.linkedin.com/in/louieadamian/"><font-awesome-icon class="far fa-linkedin" /> LINKEDIN</a> </li>
-            <li><a href="https://github.com/LouieAdamian"><i class="far fa-github" /> GITHUB</a> </li>
-            <li><a href="https://gitlab.com/LouieAdamian"><i class="far fa-gitlab" /> GITLAB</a> </li>
-        </ul>
-    </div>
+  <div class="profiles-container">
+    <nav class="profiles">
+      <ul>
+        <li><a href="https://www.linkedin.com/in/louieadamian/"><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
+        <li><a href="https://github.com/louieadamian"><font-awesome-icon :icon="['fab', 'github']" /></a></li>
+        <li><a href="https://gitlab.com/louieadamian"><font-awesome-icon :icon="['fab', 'gitlab']" /></a></li>
+        <li><a href="mailto:louis@adamian.net"><font-awesome-icon :icon="['far', 'envelope']" /></a></li>
+        <li><a href="https://twitter.com/louieadamian"><font-awesome-icon :icon="['fab', 'twitter']" /></a></li>
+      </ul>
+    </nav>
+  </div>
 </template>
 
-<style lang="scss">
-@import '../theme/styles/style';
-</style>
-<style lang="scss" scoped>
+<style scoped lang="scss">
 @import '../theme/styles/variables';
-    .socials ul li {
-        display: inline;
-        text-decoration: none;
-    }
-    .socials ul {
-        list-style: none;
-        flex-direction: row;
-        display: block;
-    }
-    .socials li {
-        list-style: none;
-        display: inline-flex;
-    }
-    .socials a {
-        text-decoration: none;
-    }
+
+.profiles ul {
+  padding: 0;
+  list-style: none;
+  display: block;
+  flex-direction: row;
+  line-height: 50px;
+}
+.profiles-container {
+  padding-top: 20px;
+}
+.profiles ul li {
+  display: inline;
+  font-size: 48pt;
+}
+
+.profiles ul li a {
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0 3px;
+  font-weight: 500;
+  svg { margin-right: 3px; }
+}
 </style>
 
 <script>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+import { faEnvelope as fasEnvelop } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faGithub, faInstagram, faTwitter, faLinkedin, faGitlab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(faEnvelope, fasEnvelop, faGithub, faInstagram, faTwitter, faLinkedin, faGitlab)
+
 export default {
-    name: 'Social',
-    components: {
-    },
-    data () {
-        return {}
-    }    
+  name: 'Profiles',
+  components: {
+    'font-awesome-icon': FontAwesomeIcon
+
+  },
+  data () {
+    return {}
+  }
 }
 </script>

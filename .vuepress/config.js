@@ -4,8 +4,11 @@ module.exports = {
         anchor:{
             permalink: false,
             permalinkBefore: true,
-            permalinkSymbol: '#'
-
+            permalinkSymbol: '#',
+            externalIcon:false
+        },
+        links: {
+            externalIcon: false
         }
     },
     extendMarkdown: md => {
