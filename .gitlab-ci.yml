@@ -9,13 +9,15 @@ image: node:14.17.0
 #  - master
 
 pages:
+  stage: deploy
   cache:
     paths:
     - node_modules/
   script:
   - yarn install
   - yarn build
-  stage: deploy
+  - mkdir public
+  - mv .vuepress/dist. public  
   artifacts:
     paths:
     - public
