@@ -2,7 +2,7 @@
   <div class="project-container">
     <Nav/>
     <div class="content-container">
-      <router-link to="/portfolio/">
+      <router-link to="./portfolio/">
         <i class="fas fa-angle-left">BACK</i>
       </router-link>
       <img :src="frontmatter.img" :alt="frontmatter.title" />

@@ -1,27 +1,27 @@
 <template>
     <div class="nav">
-            <router-link to="/">
+            <router-link to="./">
                 <h1 class="site-name">
                     Louis Adamian
                 </h1>
             </router-link>
         <ul class="nav-links">
             <li>
-              <router-link class="portfolio" to="/portfolio/">
+              <router-link class="portfolio" to="./portfolio/">
                 <h2>
                   Portfolio
                 </h2>
               </router-link>
             </li>
             <li>
-              <router-link class="blog" to="/blog/">
+              <router-link class="blog" to="./blog/">
                 <h2>
                   Blog
                 </h2>
               </router-link>
             </li>
           <li>
-            <router-link class="resume" to="/resume/">
+            <router-link class="resume" to="./resume/">
               <h2>
                 Resume
               </h2>
@@ -32,7 +32,7 @@
 </template>
 
 <style scoped lang="scss">
-    @import '../styles/variables';
+    @import '../styles/variables.scss';
     .nav {
         display: flex;
         flex-direction: row;

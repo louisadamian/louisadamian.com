@@ -14,7 +14,7 @@
 </style>
 
 <style scoped lang="scss">
-@import '../styles/variables';
+@import '../styles/variables.scss';
 .theme-container {
   padding: 2%;
 }
