@@ -2,6 +2,7 @@ image: node:14.17.0
 
 include:
   - template: Dependency-Scanning.gitlab-ci.yml
+  - template: Security/SAST.gitlab-ci.yml
 variables:
       SECURE_LOG_LEVEL: error
 
