@@ -7,6 +7,10 @@ image: node:14.17.0
 #  - yarn build
 #  only:
 #  - master
+include:
+  - template: Dependency-Scanning.gitlab-ci.yml
+variables:
+      SECURE_LOG_LEVEL: error
 
 pages:
   stage: deploy
