@@ -27,3 +27,7 @@ pages:
     - public
   only:
   - master
+sast:
+  stage: test
+  variables:
+    SAST_EXCLUDED_ANALYZERS: nodejs-scan, eslint
