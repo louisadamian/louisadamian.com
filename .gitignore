@@ -262,3 +262,5 @@ npm-debug.log
 yarn-error.log
 yarn.lock
 # End of https://www.toptal.com/developers/gitignore/api/vue,node,vuejs,visualstudiocode,jetbrains
+### Gitlab Pages ###
+/public

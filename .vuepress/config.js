@@ -13,6 +13,6 @@ module.exports = {
     },
     extendMarkdown: md => {
         md.use(require('@centerforopenscience/markdown-it-imsize'))
-    }
+    },
     dest: 'public'
   }
