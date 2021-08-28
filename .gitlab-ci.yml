@@ -13,8 +13,6 @@ pages:
   script:
   - yarn install
   - yarn build
-  - mkdir public
-  - mv .vuepress/dist public
   artifacts:
     paths:
     - public
