@@ -7,10 +7,10 @@ include:
 
 
 stages:
-  - dast
   - dev
-  - deploy
   - test
+  - dast
+  - deploy
 
 dast:
   stage: dast
