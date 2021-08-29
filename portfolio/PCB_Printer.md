@@ -5,7 +5,7 @@ date: 2018-3-1
 description: "Brings industrial Printed Circuit Board (PCB) manufacturing techniques to the home. Using an ultraviolet 
 laser and an automated chemical etching process, the resulting PCBs are equally precise and durable at a fraction of the
 cost."
-img: pcb_printer.png
+img: pcb_printer.jpg
 ---
 # PCB Printer 
 
