@@ -1,6 +1,6 @@
 <template>
     <div class="nav">
-            <router-link to="./">
+            <router-link to="/">
                 <h1 class="site-name">
                     Louis Adamian
                 </h1>
