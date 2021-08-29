@@ -6,7 +6,7 @@
         <h1>Error:</h1>
         <h1>404</h1>
         <h3> the requested page was not found</h3>
-        <RouterLink to="./">
+        <RouterLink to="/">
           <h3> go home</h3>
         </RouterLink>
       </div>
