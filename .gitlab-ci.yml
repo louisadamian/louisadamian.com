@@ -3,6 +3,21 @@ image: node:14.17.0
 include:
   - template: Dependency-Scanning.gitlab-ci.yml
   - template: Security/SAST.gitlab-ci.yml
+  - template: DAST.gitlab-ci.yml
+
+
+stages:
+  - dast
+  - dev
+  - deploy
+  - test
+
+dast:
+  stage: dast
+  dast_configuration:
+    site_profile: "louisadamian.com"
+    scanner_profile: "main_scanner"
+
 variables:
       SECURE_LOG_LEVEL: error
 
