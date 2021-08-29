@@ -19,3 +19,18 @@ pages:
     - public
   only:
   - master
+
+# Add `dast` to your `stages:` configuration
+stages:
+  - dast
+
+# Include the DAST template
+include:
+  - template: DAST.gitlab-ci.yml
+
+# Your selected site and scanner profiles:
+dast:
+  stage: dast
+  dast_configuration:
+    site_profile: "louisadamian.com"
+    scanner_profile: "main_scanner"
