@@ -9,7 +9,7 @@ img: pcb_printer.jpg
 ---
 # PCB Printer 
 
-![pcb printer](./img/pcb_printer.png =60%)
+![pcb printer](./img/pcb_printer.jpg =60%)
 
 A prototyping device that automates that prototyping Printed Circuit Boards (PCBs) by employing the fast 
 high-resolution methods used in production manufacturing without the need for a large facility and team.\
