@@ -9,8 +9,9 @@ include:
 stages:
   - dev
   - test
-  - dast
   - deploy
+  - dast
+
 
 dast:
   stage: dast
