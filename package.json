@@ -24,7 +24,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
-    "@vuepress/plugin-google-analytics": "^1.4.1",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
     "moment": "^2.25.3",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.1",

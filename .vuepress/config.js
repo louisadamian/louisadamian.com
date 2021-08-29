@@ -11,6 +11,15 @@ module.exports = {
             externalIcon: false
         }
     },
+    plugins: [
+        [
+          '@vuepress/google-analytics',
+          {
+            'ga': 'UA-179316996-1'
+            
+          }
+        ]
+      ],
     extendMarkdown: md => {
         md.use(require('@centerforopenscience/markdown-it-imsize'))
     },
