@@ -1,6 +1,6 @@
 {
   "name": "louieadamian.com",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "My personal site",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,6 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "sharp": "^0.29.0"
-  }
+  },
+  "packageManager": "yarn@3.0.2"
 }
