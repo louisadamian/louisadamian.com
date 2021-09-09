@@ -28,10 +28,10 @@ pages:
     paths:
     - node_modules/
   script:
-  - yarn install
   - yarn set version berry
   - yarn set version latest
   - yarn set version from sources
+  - yarn install
   - yarn build
   artifacts:
     paths:
