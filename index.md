@@ -1,6 +1,9 @@
 ---
 layout: Layout
 title: Louis Adamian
+meta:
+- name: gitlab-dast-validation
+  content: "a3252bb3-e78c-4244-aabc-c33cd1273d54"
 ---
 
 ## My name is Louis Adamian

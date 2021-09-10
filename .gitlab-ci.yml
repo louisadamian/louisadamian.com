@@ -14,10 +14,13 @@ stages:
 
 
 dast:
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master"
   stage: dast
   dast_configuration:
     site_profile: "louisadamian.com"
     scanner_profile: "main_scanner"
+
 
 variables:
       SECURE_LOG_LEVEL: error
@@ -33,5 +36,5 @@ pages:
   artifacts:
     paths:
     - public
-  only:
-  - master
+  rules:
+      - if: $CI_COMMIT_BRANCH == "master"
