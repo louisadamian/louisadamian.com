@@ -7,9 +7,11 @@
         <p class="date-location">
           {{formatDate(job.frontmatter.start)}} - {{formatDate(job.frontmatter.end)}}, {{job.frontmatter.location}}
         </p>
-        <p class="description">
-          {{job.frontmatter.description}}
-        </p>
+        <ul>
+          <li v-for="bullet in job.frontmatter.description" :key="bullet">
+            {{ bullet }}
+          </li>
+        </ul>
       </div>
     </div>
     <div class="education-container">
@@ -45,6 +47,7 @@ export default {
               (a, b) => new Date(b.frontmatter.end) - new Date(a.frontmatter.end)
           )
     }
+    
   },
   methods: {
     formatDate (date) {

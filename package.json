@@ -1,6 +1,6 @@
 {
   "name": "louieadamian.com",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "My personal site",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
-    "@vuepress/plugin-google-analytics": "^1.4.1",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
     "moment": "^2.25.3",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.1",
@@ -33,5 +33,6 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "sharp": "^0.29.0"
-  }
+  },
+  "packageManager": "yarn@3.0.2"
 }
