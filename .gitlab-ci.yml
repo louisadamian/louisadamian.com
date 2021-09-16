@@ -39,7 +39,7 @@ build:
     paths:
     - public
     -
-deploys3:
+deployS3:
   stage: deploy
   image: python:latest
   rules:
@@ -51,6 +51,16 @@ deploys3:
   environment:
     name: "${CI_COMMIT_REF_SLUG}"
     url: http://${BUCKET_NAME}.s3-website-${AWS_DEFAULT_REGION}.amazonaws.com/${CI_COMMIT_REF_SLUG}
+    on_stop: cleanS3 # When the branch is merged, we clean up after ourself
 
-
+cleanS3:
+  image: "python:latest"
+  stage: deploy
+  before_script:
+    - pip install awscli
+  script:
+    - aws s3 rm s3://${BUCKET_NAME}/${CI_COMMIT_REF_SLUG} --recursive # Replace example-bucket with your bucket
+  environment:
+    name: ${CI_COMMIT_REF_SLUG}
     action: stop
+  when: manual
