@@ -38,7 +38,7 @@ build:
   artifacts:
     paths:
     - public
-    -
+
 deployS3:
   stage: deploy
   image: python:latest
