@@ -16,8 +16,8 @@ variables:
   SECURE_LOG_LEVEL: error
 stages:
 - dev
-- test
 - build
+- test
 - deploy
 - dast
 dast:
