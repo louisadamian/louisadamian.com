@@ -46,12 +46,15 @@ deployS3:
     - if: $CI_COMMIT_BRANCH == "master"
   before_script:
   - pip install awscli
+  - aws configure set region us-east-1 --profile integ
+  - aws configure set aws_access_key_id ${AWS_ACCESS_KEY_ID} --profile integ
+  - aws configure set aws_secret_access_key ${AWS_SECRET_ACCESS_KEY} --profile integ
   script:
   - aws s3 cp public s3://${BUCKET_NAME}/${CI_COMMIT_REF_SLUG} --recursive
   environment:
     name: "${CI_COMMIT_REF_SLUG}"
     url: http://${BUCKET_NAME}.s3-website-${AWS_DEFAULT_REGION}.amazonaws.com/${CI_COMMIT_REF_SLUG}
-    on_stop: cleanS3 # When the branch is merged, we clean up after ourself
+    on_stop: cleanS3
 
 cleanS3:
   image: "python:latest"
