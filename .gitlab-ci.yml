@@ -34,6 +34,7 @@ build:
     - node_modules/
   script:
   - yarn install
+  - yarn add sass
   - yarn build
   artifacts:
     paths:
