@@ -4,8 +4,9 @@
       <Nav />
       <div class="content-container">
         <Content />
-      </div>
+      </div> 
     </div>
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -17,6 +18,8 @@
 @import '../styles/variables.scss';
 .theme-container {
   padding: 2%;
+  height:100%;
+  padding-bottom: 2.5rem;
 }
 </style>
 <script>

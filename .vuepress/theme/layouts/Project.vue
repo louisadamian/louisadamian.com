@@ -12,7 +12,6 @@
 </template>
 <script>
 import Nav from '@theme/components/Nav'
-
 export default {
   components: {
     Nav

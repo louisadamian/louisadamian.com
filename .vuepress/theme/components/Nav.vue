@@ -46,28 +46,27 @@
     }
     h2, .site-name {
         font-weight: 600;
+        // margin: 0px;
+        // padding: 0px;
     }
-    .sitename {
-
-    }
-    .site-title {
-      //border: 5px solid transparent;
-      border-bottom: 0;
-      font-size: 32px;
-      //padding: 20px;
-      text-align: center;
-      color: white;
-      text-decoration: none;
-      box-sizing: border-box;
-      &:active {
-        opacity: 0.7;
-        padding: 0;
-        border: 0;
-        margin: 0;
-      }
-      @media (max-width: 700px) { display: inline-flex; }
-      @media (max-width: 500px) { margin: 0 $left-pad; }
-    }
+    // .site-title {
+    //   //border: 5px solid transparent;
+    //   border-bottom: 0;
+    //   font-size: 32px;
+    //   //padding: 20px;
+    //   text-align: center;
+    //   color: white;
+    //   text-decoration: none;
+    //   box-sizing: border-box;
+    //   &:active {
+    //     opacity: 0.7;
+    //     padding: 0;
+    //     border: 0;
+    //     margin: 0;
+    //   }
+    //   @media (max-width: 700px) { display: inline-flex; }
+    //   @media (max-width: 500px) { margin: 0 $left-pad; }
+    // }
 
     .nav-links {
       margin: 0;

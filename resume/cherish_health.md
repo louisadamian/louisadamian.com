@@ -2,7 +2,7 @@
 type: job
 name: "Cherish Health"
 start: 2019-12
-end: 2021-1
+end: 2021-01
 location: Cambridge, MA
 img: "cherish_health.png"
 description:

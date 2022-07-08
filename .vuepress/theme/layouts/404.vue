@@ -3,11 +3,10 @@
     <div class="super-container">
 <!--      <Nav />-->
       <div class="theme-default-content">
-        <h1>Error:</h1>
-        <h1>404</h1>
+        <h1>Error: 404</h1>
         <h3> the requested page was not found</h3>
         <RouterLink to="/">
-          <h3> go home</h3>
+          <h4> go home</h4 >
         </RouterLink>
       </div>
    </div>
@@ -15,10 +14,9 @@
 </template>
 <style lang="scss">
 @import "../styles/style";
-h1, h2, h3{
+h1, h2, h3, h4{
   text-align: center;
   align-content: center;
 }
-
 </style>
 

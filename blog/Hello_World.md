@@ -1,6 +1,6 @@
 ---
 title: "Hello, World!"
-date: 2020-10-3
+date: 2020-10-03
 description: "welcome to my new website"
 ---
 
@@ -10,4 +10,4 @@ Hello and welcome to my new website. I have a bunch of exciting things planned f
 
 
 Enjoy, 
-Louie
+Louis
