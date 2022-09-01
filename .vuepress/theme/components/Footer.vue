@@ -24,10 +24,7 @@ p, body, .footer, .footer-container{
   font-size:12pt;
   font-weight: 200;
   color: #555555;
-} 
-
-
-    
+}   
 </style>
 
 <script>

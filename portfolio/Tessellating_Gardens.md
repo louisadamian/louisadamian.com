@@ -10,3 +10,5 @@ the roots of the plants and with muscles and oysters."
 # Tessellating Gardens
 
 ![pcb printer](./img/tessellating_gardens.jpg =60%)
+
+Tessellating Gardens is modular garden platform that floats on the phosphates, nitrates, and heavy metals through the roots of the plants and with muscles and oysters. 

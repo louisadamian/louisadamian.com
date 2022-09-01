@@ -39,7 +39,8 @@ export default {
           .sort(
               (a, b) => new Date(b.frontmatter.end) - new Date(a.frontmatter.end)
           )
-    },
+    }
+    ,
     schools () {
       return this.$site.pages
           .filter(x => x.path.startsWith('/resume/') && !x.frontmatter.resume && x.frontmatter.type == "school")
@@ -51,6 +52,9 @@ export default {
   },
   methods: {
     formatDate (date) {
+      if (date == "2100-01"){
+        return "present"
+      }
       return moment(date).format('MMM YYYY')
     },
     getImgUrl (pic) {
