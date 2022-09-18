@@ -1,29 +1,23 @@
-image: node:14.17.0
+image: node:16.17.0
 
 include:
-  - template: Dependency-Scanning.gitlab-ci.yml
-  - template: Security/SAST.gitlab-ci.yml
-  - template: DAST.gitlab-ci.yml
-
+- template: Dependency-Scanning.gitlab-ci.yml
+- template: Security/SAST.gitlab-ci.yml
+- template: DAST.gitlab-ci.yml
+- template: Security/Secret-Detection.gitlab-ci.yml
 
 stages:
-  - dev
-  - test
-  - deploy
-  - dast
-
+- test
+- deploy
+- dast
 
 dast:
   rules:
-    - if: $CI_COMMIT_BRANCH == "master"
+  - if: $CI_COMMIT_BRANCH == "master"
   stage: dast
   dast_configuration:
-    site_profile: "louisadamian.com"
-    scanner_profile: "main_scanner"
-
-
-variables:
-      SECURE_LOG_LEVEL: error
+    site_profile: louisadamian.com
+    scanner_profile: main_scanner
 
 pages:
   stage: deploy
@@ -32,6 +26,7 @@ pages:
     - node_modules/
   script:
   - yarn install
+  - yarn add sass
   - yarn build
   artifacts:
     paths:
