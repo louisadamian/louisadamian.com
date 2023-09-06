@@ -2,7 +2,7 @@
 type: job
 name: Electroninks
 start: 2022-02
-end: 2100-01
+end: 2023-01
 img: electroninks.png
 location: Austin, TX
 description: 

@@ -2,11 +2,12 @@
   <div class="profiles-container">
     <nav class="profiles">
       <ul>
+       <li><a href="https://social.treehouse.systems/@louisadamian"><font-awesome-icon :icon="['fab', 'mastodon']" /></a></li>
         <li><a href="https://www.linkedin.com/in/louisadamian/"><font-awesome-icon :icon="['fab', 'linkedin']" /></a></li>
         <li><a href="https://github.com/louisadamian"><font-awesome-icon :icon="['fab', 'github']" /></a></li>
         <li><a href="https://gitlab.com/louisadamian"><font-awesome-icon :icon="['fab', 'gitlab']" /></a></li>
         <li><a href="mailto:louis@adamian.net"><font-awesome-icon :icon="['far', 'envelope']" /></a></li>
-        <li><a href="https://twitter.com/louieadamian"><font-awesome-icon :icon="['fab', 'twitter']" /></a></li>
+
       </ul>
     </nav>
   </div>
