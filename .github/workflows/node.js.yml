@@ -3,12 +3,7 @@
 
 name: Vuepress Build
 
-on:
-  push:
-    branches: [ "louisadamian-patch-1", "master" ]
-  pull_request:
-    branches: ["louisadamian-patch-1", "master" ]
-
+on: push
 jobs:
   build:
 
