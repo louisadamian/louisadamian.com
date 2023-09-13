@@ -1,5 +1,6 @@
 module.exports = {
     title: 'Louis Adamian',
+    base: "/louisadamian.com/",
     markdown:{
         anchor:{
             permalink: false,
